@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(225, 236, 232);
+}
+#signUpPage{
+    margin-top: 70px;
+}
+#signUpBtn{
+    background-color: rgb(58, 179, 58);
+    color: #fff;
+}
+#email{
+    margin-top: 20px;
+    height: 45px;
+    box-shadow: none;
+    opacity: 0.8;
+
+}
+#email:focus{
+    box-shadow: none;
+    border: 2px solid dodgerblue !important;
+
+}
+#password{
+    margin-top: 20px;
+    height: 45px;
+    box-shadow: none;
+    opacity: 0.8;
+}
+#password:focus{
+    box-shadow: none;
+    border: 2px solid dodgerblue !important;
+}
+#logInBtn{
+    margin-top: 20px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#signUpBtn{
+    height: 45px;
+
+}
+.facebookText h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: #0165E1;
+}
+.facebookText p{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+#forgetPasswordBtn{
+   margin-top: 13px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid rgb(225, 219, 219);
+    color: dodgerblue;
+    cursor: pointer;
+}
+#inputBar{
+    padding-bottom: 0 !important;
+}
+#signUpPopUpBtn{
+    padding: 7px 50px;
+    background-color: rgb(6, 191, 6);
+    font-weight: 600;
+}
+#signUpUserName{
+    margin-top: 20px;
+    height: 45px;
+    box-shadow: none;
+    opacity: 0.8;
+}
+#signUpEmail{
+    margin-top: 20px;
+    height: 45px;
+    box-shadow: none;
+    opacity: 0.8;
+}
+#signUpPassword{
+    margin-top: 20px;
+    height: 45px;
+    box-shadow: none;
+    opacity: 0.8;
+}
+#signUpUserName:focus{
+    border: 2px solid dodgerblue;
+}
+#signUpEmail:focus{
+    border: 2px solid dodgerblue;
+}
+#signUpPassword:focus{
+    border: 2px solid dodgerblue;
+}
+.hidden{
+    display: none;
+}
